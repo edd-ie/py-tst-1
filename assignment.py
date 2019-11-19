@@ -1,12 +1,12 @@
-string1 = "John"
-string2 = "Doe"
-string3 = string1+string2
-print(string3)
+uno = "John"
+dos = "Doe"
+tres = uno + dos
+print(tres)
 
-z = len(string3)  # calculation of string length
+z = len(tres)  # calculation of string length
 print(z)
 
-e = string3.count("o")  # number of specified character
+e = tres.count("o")  # number of specified character
 print(e)
 
 g = "We are learning how to program in python. I find python programming fun"
@@ -18,5 +18,6 @@ rev = x[::-1]  # reverse output of a specified value
 print(rev)
 
 p = "racecar"
-txt = p[::-1]  # reverse output of a specified value
+txt = p[::-1]  # var[::num] is used reverse output of a specified value.
 print(txt)
+print(type(txt))  # type() is used to check the data type of a specified variable.
