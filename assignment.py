@@ -21,3 +21,4 @@ p = "racecar"
 txt = p[::-1]  # var[::num] is used reverse output of a specified value.
 print(txt)
 print(type(txt))  # type() is used to check the data type of a specified variable.
+
