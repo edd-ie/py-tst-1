@@ -21,6 +21,8 @@ m = taskList[4][1]  # first identify the value
 print(m.replace("John", "Jane"))  # input the var.replace(old, new)
 print(taskList[4][1].replace("John", "Jane"))  # Task 5: change John to Jane
 
+print(m)
+
 
 
 

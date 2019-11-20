@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de0dd14-da66-412f-84e0-776d6fc86b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assign_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assign_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assign_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +193,8 @@
       <workItem from="1574176243794" duration="8025000" />
       <workItem from="1574240944677" duration="1019000" />
       <workItem from="1574244833167" duration="2199000" />
-      <workItem from="1574247049908" duration="2329000" />
+      <workItem from="1574247049908" duration="2465000" />
+      <workItem from="1574261800889" duration="744000" />
     </task>
     <servers />
   </component>
@@ -221,6 +220,6 @@
     <SUITE FILE_PATH="coverage/py_tst_1$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1574184226013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$list.coverage" NAME="list Coverage Results" MODIFIED="1574245802619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$app.coverage" NAME="app Coverage Results" MODIFIED="1574241290387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Interests/Programming/socialNetworkFeed-master" />
-    <SUITE FILE_PATH="coverage/py_tst_1$assign_2.coverage" NAME="assign_2 Coverage Results" MODIFIED="1574249363432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_tst_1$assign_2.coverage" NAME="assign_2 Coverage Results" MODIFIED="1574262527212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
