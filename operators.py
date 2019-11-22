@@ -50,9 +50,7 @@ print("k and o is", k and o)  # and - All conditions have to be true, 5 is not <
 print("k or o is", k or o)  # or - At least one condition is true,  2 is < 5 = true
 print("not o is", not o)  # displays the opposite, 5 is not < 2 = true
 
-c = 10
-c += 10
-print(c)
+
 
 i = 4
 i *= 3

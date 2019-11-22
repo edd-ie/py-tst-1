@@ -11,3 +11,9 @@ print(days_of_the_week[-4])  # prints the 4th last index where -1 is last
 
 like = "k", 10, "y", True  # tuple can be written without ()
 print(type(like))
+
+
+ave = 80
+if 90 > ave > 60:
+    print("Grade= B")
+
