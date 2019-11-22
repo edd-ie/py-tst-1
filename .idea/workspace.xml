@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de0dd14-da66-412f-84e0-776d6fc86b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assign 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assign 3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assign 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/assign 4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assign 4">
+  <component name="RunManager" selected="Python.function">
     <configuration name="Assign 3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_tst_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="operators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_tst_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +139,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.function" />
         <item itemvalue="Python.assign 4" />
         <item itemvalue="Python.Loops" />
         <item itemvalue="Python.tuple" />
         <item itemvalue="Python.Assign 3" />
-        <item itemvalue="Python.operators" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +201,7 @@
       <workItem from="1574423258390" duration="145000" />
       <workItem from="1574423581423" duration="32000" />
       <workItem from="1574433718276" duration="627000" />
-      <workItem from="1574434767963" duration="972000" />
+      <workItem from="1574434767963" duration="10934000" />
     </task>
     <servers />
   </component>
@@ -241,9 +238,10 @@
     <SUITE FILE_PATH="coverage/py_tst_1$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1574184226013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$ifelse.coverage" NAME="ifelse Coverage Results" MODIFIED="1574332002845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$list.coverage" NAME="list Coverage Results" MODIFIED="1574245802619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_tst_1$function.coverage" NAME="function Coverage Results" MODIFIED="1574445447805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$app.coverage" NAME="app Coverage Results" MODIFIED="1574241290387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Interests/Programming/socialNetworkFeed-master" />
     <SUITE FILE_PATH="coverage/py_tst_1$operators.coverage" NAME="operators Coverage Results" MODIFIED="1574332460665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/py_tst_1$assign_4.coverage" NAME="assign 4 Coverage Results" MODIFIED="1574435593749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_tst_1$assign_4.coverage" NAME="assign 4 Coverage Results" MODIFIED="1574441339223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$assign_2.coverage" NAME="assign_2 Coverage Results" MODIFIED="1574265143635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$Assign_3.coverage" NAME="Assign 3 Coverage Results" MODIFIED="1574348890129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tst_1$Loops.coverage" NAME="Loops Coverage Results" MODIFIED="1574357395942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
