@@ -7,7 +7,6 @@ name = "Eddie"
 for name in name:
     print(name)
 
-
 marks = [50, 60, 70, 80, 90]
 z = 0
 for each in marks:
@@ -18,3 +17,7 @@ x = 0
 while x < 10:
     x = x + 1
     print(x)
+
+
+
+

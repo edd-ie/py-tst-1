@@ -25,3 +25,6 @@ print(c)   # used to get a particular value in another list
 lst1 = [1, 2, 3]
 del lst1[2]
 print(lst1)
+
+marks = int[(input("Math: ")), (input("Sci: ")), (input("Eng: ")), (input("Sst: ")), (input("Comp: "))]
+print(type(marks))

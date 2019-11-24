@@ -68,3 +68,17 @@ print("I can Multiply Anything try me")
 pst = int(input("1st Number:"))
 mmh = int(input("2nd Number:"))
 print("Answer:", pst * mmh, "told you I'm a wizard")
+
+pin = 1234
+x = 0
+attempts = 3
+while x < 3:
+    secure = int(input("Enter Pin: "))
+    if secure == pin:
+        print("Device Unlocked!")
+        break
+    else:
+        print("Wrong Pin! tries left {}". format(2 - x))
+    x += 1
+    if x == 3:
+        print("Device Locked!")

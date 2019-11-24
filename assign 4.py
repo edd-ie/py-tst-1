@@ -35,16 +35,17 @@ for num in x:
 
 
 pin = 1234
-x = 0
-while x < 3:
+i = 3
+while i > 0:
     secure = int(input("Enter Pin: "))
     if secure == pin:
         print("Device Unlocked!")
         break
     else:
-        print("Wrong Pin!")
-    x += 1
-
+        print("Incorrect! Tries left: {}".format(i-1))
+        i -= 1
+    if i == 0:
+        print("Device Locked !")
 
 
 

@@ -60,11 +60,3 @@ z = sub_2(10, 5)
 print(z)
 
 
-def name_open(name):
-    return "Hello {} !".format(name)
-
-
-p = name_open("gerald")
-print(p)
-
-# do part A using the grading sys i created, B {don't do milestone tasks}

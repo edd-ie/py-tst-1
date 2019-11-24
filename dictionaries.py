@@ -22,4 +22,3 @@ print(detour["DOB"]["day"])  # used to get a particular value in another value
 
 
 
-

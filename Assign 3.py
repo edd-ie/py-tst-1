@@ -103,3 +103,16 @@ elif ave5 < 40:
 elif ave5 < 0 or ave5 > 100:
     print(student5,  " Marks don't compute")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
