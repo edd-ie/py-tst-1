@@ -20,5 +20,7 @@ print(detour["job"])  # print a particular value in a dictionary
 print(detour["age"])
 print(detour["DOB"]["day"])  # used to get a particular value in another value
 
-
-
+t = {"cost_price": 32.67, "sell_price": 45.00, "inventory": 1200}
+u = t.values()
+r = list(u)
+print(r[0])

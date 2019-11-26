@@ -28,3 +28,13 @@ print(lst1)
 
 marks = int[(input("Math: ")), (input("Sci: ")), (input("Eng: ")), (input("Sst: ")), (input("Comp: "))]
 print(type(marks))
+
+
+def convert_lst(d):  # converting a dict to list
+    c = []
+    for items in d.items():
+        c.append(list(items))
+    return b
+
+
+print(convert_lst({"a": 1, "b": 2}))

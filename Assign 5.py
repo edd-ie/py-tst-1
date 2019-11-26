@@ -50,69 +50,53 @@ print(p)
 
 #                                               """ Section B"""
 
-def yes_no():  # Task 1
-    print("Do you agree with the terms:")
-    a = str(input(" Enter Answer: "))
+def yes_no(a):  # Task 1
     b = "yes"
     c = "Yes"
     d = "YES"
     if a == b:
-        print("Yes")
+        return"Yes"
     elif a == c:
-        print("yes")
+        return "yes"
     elif a == d:
-        print("yes")
+        return "yes"
     else:
-        print("No")
+        return "No"
 
 
 yes_no()
 
 
-def large():  # Task 2
-    print(" Enter 3 Numbers to find Largest")
-    w = [int(input("Enter Num1: ")), int(input("Enter Num2: ")), int(input("Enter Num3: "))]
+def large(f, g, h):  # Task 2
+    w = [f, g, h]
     w.sort()  # arranges from smallest to largest
-    print("Largest number is...", w[2])
+    j = w[2]
+    return j
 
 
-large()
-
-
-def list_a_z():  # Task 3
-    print("Enter a list of 5 numbers...")
-    m = [int(input("Enter Num1: ")), int(input("Enter Num2: ")), int(input("Enter Num3: ")), int(input("Enter Num4: ")),
-         int(input("Enter Num5: "))]
+def list_a_z(o, s, d, l, b):  # Task 3
+    m = [o, s, d, l, b]
     n = [m[0], m[-1]]
-    print("First & Last in the list: ", n)
-    print("First & Last in the list: ", [m[0], m[-1]])  # Shorter alternative than creating a new var
+    return n
 
 
 list_a_z()
 
 
-def even_odd():  # Task 4
-    print("Identify a Number if even/odd")
-    q = int(input("Enter a Number: "))
-    if q % 2 == 0:
-        print("Number is Even.")
+def even_odd(t):  # Task 4
+    if t % 4 == 0:
+        return "You Found a multiple of 4..."
+    if t % 2 == 0:
+        return "Number is Even."
     else:
-        print("Number is Odd")
-    if q % 4 == 0:
-        print("You Found a multiple of 4...", q)
+        return "Number is Odd"
 
 
-even_odd()
-
-
-def half_list():  # Task 5
-    h = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+def half_list(a, b, c, d, e, f, g, h):  # Task 5
+    h = (a, b, c, d, e, f, g, h)
     n = len(h) / 2
     v = int(n)
-    print(h[0:v])
-
-
-half_list()
+    return h[0:v]
 
 
 #                          """Section C """
@@ -124,95 +108,63 @@ p = name_open("gerald")
 print(p)
 
 
-def triangle_area():  # Task 2
-    base = int(input("Base Length: "))
-    height = int(input("height Length: "))
+def triangle_area(b, h):  # Task 2
+    base = b
+    height = h
     a_t = (base / 2) * height
-    print("Area is ", a_t)
+    return a_t
 
 
 triangle_area()
 
 
-def max_t_edge():  # Task 3
-    e1 = int(input("1st edge: "))
-    e2 = int(input("2st edge: "))
+def max_t_edge(a, b, c):  # Task 3
+    e1 = a
+    e2 = b
     e3 = (e1 + e2) - 1
     if e3 < 0:
-        print("Check input value Negative")
+        return "Check answer is Negative"
     else:
-        print("3rd edge is", e3)
+        return "3rd edge is", e3
 
 
 max_t_edge()
 
 
-def list_1st():  # Task 4
-    print("Enter a list of 5 numbers...")
-    m = [int(input("Enter Num1: ")), int(input("Enter Num2: ")), int(input("Enter Num3: ")), int(input("Enter Num4: ")),
-         int(input("Enter Num5: "))]
-    print("First in the list: ", m[0])
+def list_1st(a):  # Task 4
+    m = a
+    return m[0]
 
 
 list_1st()
 
 
-def leg_calc():  # Task 5
-    print("Enter number of animals to get leg count...")
-    ch = int(input("Num of chickens: "))
-    cw = int(input("Num of cows: "))
-    pg = int(input("Num of pigs: "))
-    cn = (ch * 2) + (cw * 4) + (pg * 4)
-    print("Leg count is: ", cn)
+def leg_calc(a, b, c):  # Task 5
+    a *= 2
+    b *= 4
+    c *= 4
+    d = a + b + c
+    return d
 
 
-leg_calc()
+def largest_num(u, r, y, z):  # Task 6
+    v = [u, r, y, z]
+    return max(v)
 
 
-def large2():  # Task 6
-    print(" Enter 3 Numbers to find Largest")
-    kl = [int(input("Enter Num1: ")), int(input("Enter Num2: ")), int(input("Enter Num3: "))]
-    print("Largest number is...", max(kl))
-
-
-large2()
-
-
-def m_diff():  # Task 7
-    print("Enter a list of 5 numbers...")
-    mxl = [int(input("Enter Num1: ")), int(input("Enter Num2: ")), int(input("Enter Num3: ")),
-           int(input("Enter Num4: ")),
-           int(input("Enter Num5: "))]
+def m_diff(m, n, o, p, q, c):
+    mxl = [m, n, o, p, q, c]
     mxl.sort()
-    print("Diff btwn Largest & smallest : ", mxl[-1] - mxl[0])
+    xlr = mxl[-1] - mxl[0]
+    return xlr
 
 
-m_diff()
+def comb_lst(a, b):  # Task 8
+    return a + b
 
 
-def comb_lst():  # Task 8
-    print(" Enter 1st list")
-    ls1 = [input("Enter object1: "), input("Enter object2: "), input("Enter object3: ")]
-    print(" Enter 2nd list")
-    ls2 = [input("Enter object1: "), input("Enter object2: "), input("Enter object3: ")]
-    ls3 = ls1 + ls2
-    print(ls3)
-
-
-comb_lst()
-
-
-def length_calc():  # Task 9
-    print("Calculate if words have equal lengths...")
-    wr1 = str(input("1st word:"))
-    wr2 = str(input("2nd word:"))
+def length_calc(wr1, wr2):  # Task 9
     if len(wr1) == len(wr2):
-        print(True, "words equal")
+        return True
     else:
-        print(False, "words unequal")
-
-
-length_calc()
-
-
-
+        return False
