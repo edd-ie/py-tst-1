@@ -1,30 +1,3 @@
-l = [1, 2, 3, 4, 5]
-
-for num in l:
-    print(num)
-
-name = "Eddie"
-for name in name:
-    print(name)
-
-marks = [50, 60, 70, 80, 90]
-z = 0
-for each in marks:
-    z = z + each
-print(z)
-
-
-def animals(a, b, c):  # Task 5
-    a *= 2
-    b *= 4
-    c *= 4
-    d = a + b + c
-    return d
-
-
-print(animals(2, 3, 5))
-
-
 def largest_num(u, r, y, z):  # Task 6
     v = [u, r, y, z]
     return max(v)
@@ -81,7 +54,7 @@ def profit(t):
     return rou
 
 
-print(profit({"cost_price": 225.89,  "sell_price": 550.00, "inventory": 100}))
+print(profit({"cost_price": 225.89, "sell_price": 550.00, "inventory": 100}))
 
 
 def profit_sim(a):
@@ -90,4 +63,6 @@ def profit_sim(a):
     return v
 
 
-print(profit_sim({"cost_price": 225.89,  "sell_price": 550.00, "inventory": 100}))
+print(profit_sim({"cost_price": 225.89, "sell_price": 550.00, "inventory": 100}))
+
+
